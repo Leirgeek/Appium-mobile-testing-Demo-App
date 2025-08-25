@@ -28,7 +28,7 @@ const App = () => (
               <header className="h-16 flex items-center px-6 border-b border-border/50 bg-card/30 backdrop-blur-sm">
                 <SidebarTrigger className="mr-4" />
                 <h1 className="text-xl font-semibold bg-hero-gradient bg-clip-text text-transparent">
-                  Demo Navigator
+                  Appium mobile testing- Demo App
                 </h1>
               </header>
               <div className="flex-1 p-6">

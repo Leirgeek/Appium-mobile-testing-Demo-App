@@ -16,7 +16,7 @@ const Home = () => {
       <div className="relative overflow-hidden rounded-2xl bg-hero-gradient p-12 text-center">
         <div className="relative z-10">
           <h1 className="text-5xl font-bold text-white mb-4">
-            Welcome to Demo Navigator
+            Welcome to Appium Demo App
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
             Explore our multi-screen demo application with beautiful navigation, 
