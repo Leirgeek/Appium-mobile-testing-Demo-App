@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Appium mobile testing- Demo App</string>
+    <string name="title_activity_main">Appium mobile testing- Demo App</string>
+    <string name="package_name">app.lovable.appiumDemoApp</string>
+    <string name="custom_url_scheme">app.lovable.appiumDemoApp</string>
+</resources>
