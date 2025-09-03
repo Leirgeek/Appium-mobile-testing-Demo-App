@@ -1,38 +1,56 @@
- 
-This project was developed using Lovable - a no-code developemnt tool. I developed this web-app so that I can explore mobile app automation testing using Appium. 
-The aim is to learn both functional and Visual testing in mobile apps. 
+ # Mobile App Automation Testing Playground  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This project was built using **Lovable**, a no-code development tool.  
+The goal of this project is to explore **mobile app automation testing with Appium**, focusing on both **functional testing** and **visual testing** for mobile applications.  
 
-Follow these steps:
+Since the app is a **web app**, it can be packaged into an **APK** for installation on a device or emulator using **Capacitor**.  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+---
+
+## Prerequisites  
+
+Before running this project, ensure you have:  
+- **Node.js** and **npm** installed (recommended installation via [`nvm`](https://github.com/nvm-sh/nvm))  
+
+---
+
+## Getting Started  
+
+Follow these steps to run the project locally:  
+
+### Step 1: Clone the repository  
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
+Step 2: Navigate to the project directory
+bash
+Copy code
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Step 3: Install dependencies
+bash
+Copy code
+npm install
+Step 4: Start the development server
+bash
+Copy code
 npm run dev
-''
-## What technologies are used for this project?
+This will launch the app with auto-reloading and instant preview in your browser.
 
-Since this is a web-app, you will need to convert it to an APK so that you can install in your device or use an emulator. 
-
-Use Capacitor to convert the web-app  an APK.
-
+ Technologies Used
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Vite – fast build tool
 
-## How can I deploy this project?
+TypeScript – strongly typed JavaScript
 
+React – component-based UI library
 
+shadcn/ui – modern UI components
+
+Tailwind CSS – utility-first CSS framework
+
+ Deployment
+To run this project as a mobile app:
+
+Use Capacitor to wrap the web app into an APK.
+
+Install the APK on your device or use an emulator to test it.
